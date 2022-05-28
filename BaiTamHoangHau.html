@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Travelix Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/blog_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+<link rel="stylesheet" href="styles/style_navbar.css">
+</head>
+
+<body>
+
+<div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header">
+
+            <!-- Top Bar -->
+
+            <div class="top_bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex flex-row">
+                            <!-- <div class="phone">+45 345 3324 56789</div> -->
+                            <div class="social">
+                                <ul class="social_list">
+                                    <li class="social_list_item"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li class="social_list_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="social_list_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="social_list_item"><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                    <li class="social_list_item"><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                    <li class="social_list_item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="user_box ml-auto">
+                                <div class="user_box_login user_box_link"><a href="#">đăng nhập</a></div>
+                                <div class="user_box_register user_box_link"><a href="#">đăng ký</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Navigation -->
+            <nav class="main_nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+                            <div class="logo_container">
+                                <div class="logo">
+                                    <a href="#"><img src="images/logo_avt.png" alt="" ></a>
+                                </div>
+                            </div>
+                            <div class="main_nav_container ml-auto">
+                                <ul class="main_nav_list">
+                                    <li class="main_nav_item"><a href="home.html">Trang chủ</a></li>
+                                    <li class="main_nav_item"><a href="destination.html">Điểm đến</a></li>
+                                    <li class="main_nav_item_navbar dropdown menu-area">
+                                        <a class="nav-link dropdown-toggle" href="#" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Bài Viết
+                                        </a>
+                                        <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <h5>Miền Bắc</h5>
+                                                    <a href="#" class="dropdown-item">Hà Nội</a>
+                                                    <a href="/blogSapa.html" class="dropdown-item">Sapa</a>
+                                                    <a href="#" class="dropdown-item">Ninh Bình</a>
+                                                    <a href="#" class="dropdown-item">Quảng Ninh</a>
+                                                </div>
+
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <h5>Miền Trung</h5>
+                                                    <a href="#" class="dropdown-item">Đà Nẵng</a>
+                                                    <a href="/blogBinhDinh.html" class="dropdown-item">Bình Định</a>
+                                                    <a href="#" class="dropdown-item">Thừa Thiên Huế</a>
+                                                    <a href="#" class="dropdown-item">Nha Trang</a>
+                                                    <a href="#" class="dropdown-item">Phan Thiết</a>
+                                                    <a href="#" class="dropdown-item">Đà Lạt</a>
+                                                </div>
+
+                                                <div class="col-sm-6 col-lg-4">
+                                                    <h5>Miền Nam</h5>
+                                                    <a href="#" class="dropdown-item">Sài Gòn</a>
+                                                    <a href="#" class="dropdown-item">Vũng Tàu</a>
+                                                    <a href="/blogPhuQuoc.html" class="dropdown-item">Phú Quốc</a>
+                                                    <a href="#" class="dropdown-item">Cần Thơ</a>
+                                                    <a href="#" class="dropdown-item">Côn Đảo</a>
+                                                    <a href="#" class="dropdown-item">Tây Ninh</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="main_nav_item"><a href="contact.html">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                            <div class="content_search ml-lg-0 ml-auto">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+                                            s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+                                            C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+                                            M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+                                            c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+                                            c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+                                            C-2.019,484.77-2.019,497.865,6.057,505.942z"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            </div>
+
+                            <form id="search_form" class="search_form bez_1">
+                                <input type="search" class="search_content_input bez_1">
+                            </form>
+
+                            <div class="hamburger">
+                                <i class="fa fa-bars trans_200"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="menu trans_500">
+            <div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="menu_close_container">
+                    <div class="menu_close"></div>
+                </div>
+                <div class="logo menu_logo">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <ul>
+                    <li class="main_item"><a href="home.html">Trang chủ</a></li>
+                    <li class="main_item"><a href="offers.html">Điểm đến</a></li>
+                    <li class="main_item"><a href="blog.html">Bài Viết</a></li>
+                    <li class="main_item"><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/BTHH.jpg"></div>
+		<div class="home_content">
+			<div class="home_title">Bãi Tắm Hoàng Hậu</div>
+		</div>
+	</div>
+
+	<!-- Blog Detail-->
+	<article class="mb-4 mt-4">
+        <div class="container px-4 px-lg-5">
+            <div class="gx-4 gx-lg-5 justify-content-center">
+                <a class="col-md-10 col-lg-8 col-xl-7">
+                    <p>Bạn có biết về bãi tắm Hoàng Hậu từ lâu ai là một trong những địa danh nổi tiếng về vẻ đẹp hoang sơ hiếm có của Quy Nhơn. Đi khắp dọc miền đất nước đâu đâu cũng nổi lên trong mình những danh lam thắng cảnh tuyệt đẹp say đắm lòng người
+                        thu hút khách du lịch thập phương. Dừng chân tại Bình Định bạn cũng sẽ được chiêm ngưỡng, khám phá những địa danh, danh lam thắng cảnh tuyệt đẹp trong đó có bãi biển Hoàng Hậu. Cùng VNTRIP.VN khám phá qua vùng đất này nhé.</p>
+                    <h3><b>Bãi Tắm Hoàng Hậu ở đâu?</b></h3>
+                    <p>Nằm trong địa phận của Ghềnh Ráng một địa danh tham quan du lịch kì thú của Bình Định, cách thành phố Quy Nhơn khoảng 3km về phía Đông Nam. Bãi Hoàng Hậu được xem là một trong những bãi biển Quy Nhơn đẹp nổi tiếng nhất. So với các
+                        bãi biển nổi tiếng khác như Nha Trang, Vũng Tàu hay Phú Quốc thì bãi tắm hoàng hậu có thể vẫn còn khá xa lạ với một vài người. Nhưng đây là bãi tắm tuyệt đẹp và còn giữ nguyên được vẻ đẹp hoang sơ hùng vĩ của mình.</p>
+                    
+
+                    <h3><b>Du lịch ở Bãi Tắm Hoàng Hậu</b></h3>
+                    <p>Bãi tắm Hoàng Hậu được thiên nhiên ưu ái ban tặng cho vẻ đẹp nên thơ, với địa thế thuận lợi, gần các khu nghỉ dưỡng resort nên nó đã trở thành một trong những địa điểm thu hút khách du lịch trong và ngoài nước đến.</p>
+                    
+                    <p>Bãi biển Hoàng Hậu nằm trong Ghềnh Ráng. Từ đỉnh Ghềnh Ráng có thể phóng tầm mắt nhìn rộng cả bốn bề. Xa xa bãi tắm xanh mướt, những đoàn thuyền đánh cá nhấp nhô trong làn sương mờ ảo. Đẹp như một bức tranh thủy mặc của một nghệ nhân
+                        nổi tiếng.</p>
+                    <p>Mang trong mình bao truyền thuyết về tiên dáng trần bởi vẻ đẹp nên thơ của mình. Cũng bởi trong tâm thức của mỗi người mỗi lần nhắc đến cảnh đẹp đều có sựu dính líu của thần tiên, đẹp thoát tục.</p>
+                    
+
+                    <h3><b>Sự tích bãi tắm hoàng hậu</b></h3>
+                    <p>Truyền thuyết kể lại rằng từ xa xưa nơi đây là nơi hội tụ vui chơi, tụ hội của các nàng tiên. Nên nó có vẻ đẹp tiên cảnh say đắm lòng người. Có người còn kể xa xưa ở đây có một ngôi làng trong đó có một đôi trai tài gái sắc yêu nhau
+                        thắm thiết nhưng luôn bị ngăn cấm bởi gái đình hai bên. Vì qua thương yêu nhau nên hai người đã thề non hẹn biển muốn sống chết bên nhau. Biết không thể ngăn cản hai con của mình. Gia đình cô gái đã giao hẹn với chàng trai phải
+                        kiếm đủ 100 tổ yến trong vòng 3 tháng mang về làm quà sính lễ. Vì quá yêu thương cô gái chàng trai đã quyết định ra đi tìm tổ yến. Cô gái thì ở nhà trông ngóng người yêu từng ngày. Đến ngày hẹn mang sính lễ tới nhưng vẫn không
+                        thấy chàng trai quay về cô gái khóc lóc rồi vội vã đi tìm người yêu.</p>
+                    
+                    <p>Khi chạy đến bãi tắm Hoàng hậu bỗng sấm chớp nổi lên từ trong vách núi nứt ra một khe hở vì qua mệt mỏi cô đã đi vào đó và đàn dần biến mất. Chàng trai sau khi kiếm đủ sính lễ thì mau chóng quay về tìm người yêu. Vì qua mệt mỏi sau
+                        những ngày dài chàng trai thiếp đi trên biển lúc tỉnh lại chàng đã thấy mình được sóng đánh tạt vào bờ biển Hoàng Hậu nơi ghềnh Ráng. Lúc này chàng thấy bóng người yêu thoắt ẩn thoắt hiện trong làn sương mờ. Hai người đã cùng nắm
+                        tay nhau và biến mất. Nơi khe núi nứt ra tạo ra một dòng suối người ta gọi nó là Tiên sa. Từ đó trở đi núi sông bờ cõi nơi ghềnh Ráng luôn như thoắt ẩn thoắt hiện vẻ đẹp của đôi trai tài gái sắc đó. Vì thế mà bãi tắm biển Hoàng
+                        Hậu còn được gọi là bãi tắm tình yêu.</p>
+                    
+                    <p>Cũng chính bởi thế nên khi vua Bảo Đại đi du hành, khi đi qua vùng biển này. Thấy cảnh sắc nên thơ trữ tình nên ông đã cho dóng quân tại nơi này để nghỉ mát và thăm thú phong cảnh. Lúc này có vị hoàng hậu Nam Phương- vợ của vua Bảo
+                        Đại đi du hành cùng vua đã thấy thích thú và chọn riêng cho mình bãi tắm này. Từ đó chở đi bãi tắm này có tên là bãi biển hoàng hậu.</p>
+                    
+                    <p>Đến đây bạn sẽ bị say đắm bởi biển trời trong xanh với những âm thanh du dương vọng vào từ biển cả, những con sóng xô nhau vào bờ, ánh mặt trời chiếu xuống nhìn từ xa biển lấp lánh như được rát vàng. Không chỉ thế, bạn còn được thả
+                        sức vui chơi du ngoạn trên những phiến đá nhấp nhô, trông như những tổ ông xếp tầng. đi dạo trên bờ biển bạn với làn gió mát rượi, hơi mặn chát từ biển, nắng nhẹ,…. Thật tuyệt và lý thú.</p>
+                    <h3><b>Vẻ đẹp mang tên “Hoàng Hậu”</b></h3>
+                    <p>Bãi tắm hoàng hậu còn được ví như bãi trắng chim, bởi ở đây có những phiến đá to tròn, láng mịn nhìn xa trông giống những quả trứng chim khổng lồ. Còn gì thích thú hơn khi bạn được dẫm đôi bàn chân trần đi trên những phiến đá ấy. Tuy
+                        có chút mạo hiểm nhưng đó thực sự sẽ là một trải nghiệm lý thú dành cho bạn.</p>
+                    
+                    <p>Tại đây đã được xây dựng nên một ngon hải đăng để làm dấu mốc định hướng đi trên biển. Ngọn hải đăng này được coi là ngọn đuốc giữa biển khơi. Bạn cũng có thể chiêm ngưỡng được vẻ đẹp của bãi tắm hoàng hâu từ trên ngọn hải đăng. Những
+                        làn sóng xanh mát đập mạnh vào ghềnh đá, những chiếc buồm chấp chới ngoài biển khơi. Gió biển thổi mạnh, lướt qua từng lọn tóc, mát lạnh. Vẻ đẹp hoang sơ khiến con người thích thú, muốn níu giữ. Không chỉ thế du khách còn có thể
+                        đi dọc men theo dìa núi để khám phá, thú cảnh biển và những bức vách núi đá.</p>
+                    <p>Bãi Hoàng Hậu như được nằm thọt lỏm giữa những vách đá núi dựng đứng, như tấm lưng trần của một nàng tiên xa lỗng lẫy được hai vệ sĩ khổng lồ to khỏe đứng bảo vệ, che chắn cho nàng.</p>
+                    
+                    <p>Ở đây còn nổi tiếng bởi nơi đây gắn liền với tên tuổi của nhà thơ Hàn Mặc Tử. Những năm cuối đời của mình ông đã sinh sống tại đây, do mắc chứng bệnh hiểm nghèo mà ông ra đi khhi tuổi đời còn quá trẻ. Với tâm trạng u buồn khi biết
+                        mình mắc bệnh, cộng thêm vẻ đẹp hoang sơ tiên cảnh, ông đã để lại cho đời những ánh vần thơ bất hủ. Vãn còn được lưu truyền và tồn tại cho đến bây giờ. Du khách đến đây sẽ có cơ hội đến viếng thăm ngôi mộ của Hàn Mặc Tử hoặc có
+                        thể ghé vườn hoa mang tên ông. Nơi đây không chỉ đẹp, với muôn ngàn sắc hoa đang tỏa hương ngào ngạt mà nó còn phản phất đâu đó những vần thơ của Hàn Mặc Tử còn vương vấn ở nơi đây.</p>
+                    
+                    <p>Đến với bãi tắm hoàng hậu Quy Nhơn bạn cũng sẽ được thưởng thức những món ăn đặc sản Quy Nhơn tươi ngon. Và một số đặc sản khác của xứ Bình Định này. Những loại hải sản là không thể thiếu, hải sản ở đây rất tươi ngon và được chế biến
+                        ngay sau khi đánh bắt vì thế nó vẫn luôn giữ được mùi vị mà để rồi một lần thưởng thức qua du khách cũng phải tràm trồ khen ngợi và nhớ về món ăn đó. Bún chả, mắm nhum, cua Huỳnh Đế, bánh hỏi Diêu Trì, nem chợ huyện, bánh xèo,
+                        bún tôm…</p>
+                    
+                    <p>Không bút pháp nào có thể tả hết được vẻ đẹp nên thơ hùng vĩ. Những cảm giác chân thực khi đi dạo bộ trên những bãi cát dài, đặt đôi chân trần trên những phiến đá láng mịn, những hòn sỏi to tròn như trứng chin Nhạn hay tiếng gió thổi
+                        vi vu đập nhẹ vào làn tóc. Tất cả đều rất tuyệt. Bãi tắm Hoàng Hậu hứa hẹn sẽ là một điểm du lịch lý tưởng dành cho bạn. Hãy đến để cảm nhận vẻ đẹp của hoang sơ hùng vĩ của bãi tắm và tận tai nghe các bô lão kể về những câu chuyện
+                        thần tiên từ truyền thuyết xa xưa. Thật thú vị phải không nào? </p>
+                </a>
+            </div>
+        </div>
+    </article>
+
+        <!-- Footer -->
+
+        <footer class="footer ">
+            <div class="container ">
+                <div class="row ">
+
+                    <!-- Footer Column -->
+                    <div class="col-lg-3 footer_column ">
+                        <div class="footer_col ">
+                            <div class="footer_content footer_about ">
+                                <div class="logo_container footer_logo ">
+                                    <div class="logo ">
+                                        <a href="# "><img src="images/logo_avt.png " alt=" "></a>
+                                    </div>
+                                </div>
+                                <p class="footer_about_text ">Hãy kết nối với chúng tôi đểnhận được những dịch vụ chất lượng hàng đầu với mức giá rẻ nhất. Tất cả những gì du khách cần làm là ba bước: Chọn tour, đặt tour và thanh toán, còn lại mọi việc đã có VietnamTourist lo. Du khách chỉ cần sắp xếp hành lý, đợi đến ngày “vi vu” tận hưởng chuyến đi của mình!</p>
+                                <ul class="footer_social_list ">
+                                    <li class="footer_social_item "><a href="# "><i class="fa fa-pinterest "></i></a></li>
+                                    <li class="footer_social_item "><a href="# "><i class="fa fa-facebook-f "></i></a></li>
+                                    <li class="footer_social_item "><a href="# "><i class="fa fa-twitter "></i></a></li>
+                                    <li class="footer_social_item "><a href="# "><i class="fa fa-dribbble "></i></a></li>
+                                    <li class="footer_social_item "><a href="# "><i class="fa fa-behance "></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Column -->
+                    <div class="col-lg-3 footer_column ">
+                        <div class="footer_col ">
+                            <div class="footer_title ">Du lịch 3 miền Việt Nam</div>
+                            <div class="footer_content footer_blog ">
+
+                                <!-- Footer blog item -->
+                                <div class="footer_blog_item clearfix ">
+                                    <div class="footer_blog_image "><img src="images/footer_blog_1.jpg " alt="https://unsplash.com/@avidenov "></div>
+                                    <div class="footer_blog_content ">
+                                        <div class="footer_blog_title "><a href="blog.html ">Miền Bắc Việt Nam</a></div>
+                                        <div class="footer_blog_date ">Ngày 28 tháng 5 năm 2022</div>
+                                    </div>
+                                </div>
+
+                                <!-- Footer blog item -->
+                                <div class="footer_blog_item clearfix ">
+                                    <div class="footer_blog_image "><img src="images/footer_blog_3.jpg " alt="https://unsplash.com/@deannaritchie "></div>
+                                    <div class="footer_blog_content ">
+                                        <div class="footer_blog_title "><a href="blog.html ">Miền Trung Việt Nam</a></div>
+                                        <div class="footer_blog_date ">Ngày 28 tháng 5 năm 2022</div>
+                                    </div>
+                                </div>
+
+                                <!-- Footer blog item -->
+                                <div class="footer_blog_item clearfix ">
+                                    <div class="footer_blog_image "><img src="images/footer_blog_2.jpg " alt="https://unsplash.com/@bergeryap87 "></div>
+                                    <div class="footer_blog_content ">
+                                        <div class="footer_blog_title "><a href="blog.html ">Miền Nam Việt Nam</a></div>
+                                        <div class="footer_blog_date ">Ngày 28 tháng 5 năm 2022</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Column -->
+                    <div class="col-lg-3 footer_column ">
+                        <div class="footer_col ">
+                            <div class="footer_title ">Địa điểm nổi tiếng</div>
+                            <div class="footer_content footer_tags ">
+                                <ul class="tags_list clearfix ">
+                                    <li class="tag_item "><a href="# ">Sapa</a></li>
+                                    <li class="tag_item "><a href="# ">Quy Nhơn</a></li>
+                                    <li class="tag_item "><a href="# ">Phú Quốc</a></li>
+                                    <li class="tag_item "><a href="# ">Hội An</a></li>
+                                    <li class="tag_item "><a href="# ">Vịnh Hạ Long</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Column -->
+                    <div class="col-lg-3 footer_column ">
+                        <div class="footer_col ">
+                            <div class="footer_title ">Liên hệ</div>
+                            <div class="footer_content footer_contact ">
+                                <ul class="contact_info_list ">
+                                    <li class="contact_info_item d-flex flex-row ">
+                                        <div>
+                                            <div class="contact_info_icon "><img src="images/placeholder.svg " alt=" "></div>
+                                        </div>
+                                        <div class="contact_info_text ">Đại học CNTT, Linh Trung, Thủ Đức, TP.HCM</div>
+                                    </li>
+                                    <li class="contact_info_item d-flex flex-row ">
+                                        <div>
+                                            <div class="contact_info_icon "><img src="images/phone-call.svg " alt=" "></div>
+                                        </div>
+                                        <div class="contact_info_text ">2556-808-8613</div>
+                                    </li>
+                                    <li class="contact_info_item d-flex flex-row ">
+                                        <div>
+                                            <div class="contact_info_icon "><img src="images/message.svg " alt=" "></div>
+                                        </div>
+                                        <div class="contact_info_text "><a href="mailto:contactme@gmail.com?Subject=Hello " target="_top ">contactnhom2@gmail.com</a></div>
+                                    </li>
+                                    <li class="contact_info_item d-flex flex-row ">
+                                        <div>
+                                            <div class="contact_info_icon "><img src="images/planet-earth.svg " alt=" "></div>
+                                        </div>
+                                        <div class="contact_info_text "><a href="https://colorlib.com ">www.nhom2.com</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- Copyright -->
+
+        <div class="copyright ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-3 order-lg-1 order-2 ">
+                        <div class="copyright_content d-flex flex-row align-items-center ">
+                            <div>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o " aria-hidden="true "></i> by <a href="https://colorlib.com " target="_blank ">nhom2</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 order-lg-2 order-1 ">
+                        <div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end ">
+                            <div class="footer_nav ">
+                                <ul class="footer_nav_list ">
+                                    <li class="footer_nav_item "><a href="home.html">Trang chủ</a></li>
+                                    <li class="footer_nav_item "><a href="about.html ">Điểm đến</a></li>
+                                    <li class="footer_nav_item "><a href="blog.html ">Bài viết</a></li>
+                                    <li class="footer_nav_item "><a href="contact.html ">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/blog_custom.js"></script>
+
+</body>
+
+</html>
