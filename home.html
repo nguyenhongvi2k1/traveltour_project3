@@ -246,12 +246,15 @@
                                         class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4 btn btn-primary video-btn">
                                         <span class="ion-ios-play"></span>
                                     </button> -->
-                                    <button type="button" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4 btn btn-primary video-btn" data-toggle="modal"
-                                        data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
-                                         <span class="ion-ios-play"></span>
+                                    <button type="button"
+                                        class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4 btn btn-primary video-btn"
+                                        data-toggle="modal"
+                                        data-src="https://player.vimeo.com/video/58385453?badge=0&autoplay=1&loop=1"
+                                        data-target="#myModal">
+                                        <span class="ion-ios-play"></span>
                                     </button>
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -270,10 +273,13 @@
                                         Khám phá</h1>
                                     <h1 class="caps" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
                                         Việt Nam</h1>
-                                    <a href="https://vimeo.com/45830194"
-                                        class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+                                    <button type="button"
+                                        class="icon-video d-flex align-items-center justify-content-center mb-4 btn btn-primary video-btn"
+                                        data-toggle="modal"
+                                        data-src="https://player.vimeo.com/video/58385453?badge=0&autoplay=1&loop=1"
+                                        data-target="#myModal">
                                         <span class="ion-ios-play"></span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -292,34 +298,37 @@
                                         Khám phá</h1>
                                     <h1 class="caps" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
                                         Việt Nam</h1>
-                                    <a href="https://vimeo.com/45830194"
-                                        class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+                                    <button type="button"
+                                        class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4 btn btn-primary video-btn"
+                                        data-toggle="modal" 
+                                        data-src="https://player.vimeo.com/video/58385453?badge=0&autoplay=1&loop=1"
+                                        data-target="#myModal">
                                         <span class="ion-ios-play"></span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-    <div class="modal-content">
-        <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal"
-                aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="" id="video"
-                    allowscriptaccess="always" allow="autoplay"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <!-- 16:9 aspect ratio -->
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                                        allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Home Slider Nav - Prev -->
                 <div class="home_slider_nav home_slider_prev">
                     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
@@ -1208,7 +1217,7 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
     <script src="js/jquery.magnific-popup.min.js "></script>
     <script src="js/owl.carousel.min.js "></script>
     <script src="js/bootstrap-datepicker.js "></script>
-    <script src="js/popper.min.js "></script>
+    <!-- <script src="js/popper.min.js "></script> -->
     <script>
         $(document).ready(function () {
 
@@ -1236,12 +1245,6 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
                 // a poor man's stop video
                 $("#video").attr('src', $videoSrc);
             })
-
-
-
-
-
-
             // document ready  
         });
     </script>
